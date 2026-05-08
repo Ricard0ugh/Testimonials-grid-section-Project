@@ -11,6 +11,8 @@
     --dk-blue: hsl(219, 29%, 14%);
     --black: hsl(0, 0%, 7%);
 
+    --font: "Barlow Semi Condensed", sans-serif;
+
 }
 
 body {
@@ -28,6 +30,7 @@ body {
     background-color: yellow;
     padding: 2rem 3rem;
     border-radius: 15px;
+    font-family: var(--font);
 }
 
 .grid-container {
@@ -39,6 +42,47 @@ body {
     "box-1 box-1 box-2 box-5"
     "box-3 box-4 box-4 box-5"
 }
+
+#box-1 {
+    background-color: var(--purple500);
+    color: var(--white);
+}
+
+#box-2 {
+    background-color: var(--gray500);
+    color: var(--white);
+}
+
+#box-3 {
+    background-color: var(--white);
+    color: var(--gray500);
+}
+
+#box-4 {
+    background-color: var(--dk-blue);
+    color: var(--gray200);
+}
+
+#box-5 {
+    background-color: var(--white);
+}
+
+.user {
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.user .user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.user img {
+    border-radius: 50%;
+    border: 3px solid var(--purple300);
+}
+
 
 
 
