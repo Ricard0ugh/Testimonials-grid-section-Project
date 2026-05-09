@@ -27,7 +27,7 @@ body {
 }
 
 .box {
-    padding: 2rem 3rem;
+    padding: 2rem 2rem .8rem 2rem;
     border-radius: 15px;
     font-family: var(--font);
     box-shadow: 30px 45px 40px rgba(72, 85, 106, 0.18);
@@ -50,7 +50,7 @@ body {
     color: var(--white);
     background-image: url('images/bg-pattern-quotation.svg');
     background-repeat: no-repeat;
-    background-position: 80% 0%;
+    background-position: 87.5% 0%;
     background-size: 135px;
     
 }
@@ -70,6 +70,7 @@ body {
 
 #box-1 > .p-tag {
     color: var(--gray100);
+    font-size: .94rem;
 }
 
 
@@ -92,6 +93,8 @@ body {
 
 #box-2 > .p-tag {
     color: var(--gray200);
+    font-size: .96rem;
+    
 }
 
 #box-3 {
@@ -113,6 +116,7 @@ body {
 
 #box-3 > .p-tag {
     color: var(--gray400);
+    font-size: .92rem;
 }
 
 #box-4 {
@@ -138,6 +142,7 @@ body {
 
 #box-4 > .p-tag {
     color: var(--gray200);
+    font-size: .95rem;
 }
 
 #box-5 {
@@ -155,6 +160,7 @@ body {
 
 #box-5 > .p-tag {
     color: var(--gray400);
+    font-size: .96rem;
 }
 
 .user {
